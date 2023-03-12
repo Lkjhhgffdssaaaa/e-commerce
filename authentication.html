@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .auth-box{
+            display: flex;
+            justify-content: center;
+        }
+
+        .signup{
+            max-width: 400px;
+            width: 100%;
+            height: 450px;
+            box-shadow: 0 0 5px 0 #121212;
+            z-index: 100000;
+            padding: 20px;
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+        .form{
+            width: 80%;
+            padding:0 10%;
+        }
+        .form label{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .form input{
+            width: 100%;
+            margin-bottom: 10px;
+            background: #c7c1c1;
+            border-radius: 5px;
+            height: 20px;
+            border: none;
+            border-bottom: 1px solid#121212;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="auth-box">
+    <div class="signup">
+        <div class="header">
+            <h3>
+                Create Account
+            </h3>
+
+            <p class="close-btn">X</p>
+        </div>
+        <form action="" class="form">
+            <label for="">Username</label>
+            <input type="text" name="name" id="name">
+            <label for="">Password</label>
+            <input type="password" name="password" id="password">
+            <label for="">Confirm Password</label>
+            <input type="password" name="conf-pass" id="conf-pass">
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    </section>  
+</body>
+</html>
